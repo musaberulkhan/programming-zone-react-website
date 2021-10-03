@@ -1,0 +1,15 @@
+.navbar{
+    background-color: rgb(243, 243, 243);
+}
+.navbar .brand-logo{
+    width: 40px;
+}
+.navbar .navbar-brand{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 10px;
+    color: rgb(77, 77, 77);
+}
+.navbar .navbar-nav a{
+    font-weight: 600;
+}

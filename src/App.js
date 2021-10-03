@@ -6,6 +6,7 @@ import Courses from './Components/Courses/Courses';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Login from './Components/Login/Login';
+import Logo from './Images/logo.png';
 
 function App() {
   return (
@@ -14,42 +15,43 @@ function App() {
         <div>
           <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
-              <Link className="navbar-brand" to="#">Navbar</Link>
+              <img className="brand-logo" src={Logo} alt="" />
+              <Link className="navbar-brand" to="/">Programming Zone</Link>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                  <Link className="nav-link" to="/">Home</Link>
+                  <Link className="nav-link" to="/"><i className="fas fa-home"></i> Home</Link>
                   <Link className="nav-link" to="/courses">Courses</Link>
                   <Link className="nav-link" to="/about">About</Link>
                   <Link className="nav-link" to="/contact">Contact</Link>
-                  <Link className="nav-link" to="/login">Login</Link>                  
+                  <Link className="nav-link" to="/login">Login</Link>
                 </div>
               </div>
             </div>
-          </nav>         
+          </nav>
 
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
             <Route exact path="/">
-               <Home></Home>
+              <Home></Home>
             </Route>
             <Route path="/courses">
-                <Courses></Courses>
+              <Courses></Courses>
             </Route>
             <Route path="/about">
-                <About></About>
+              <About></About>
             </Route>
             <Route path="/contact">
-                <Contact></Contact>
+              <Contact></Contact>
             </Route>
             <Route path="/login">
-                <Login></Login>
+              <Login></Login>
             </Route>
-          </Switch>  
-        </div>      
+          </Switch>
+        </div>
       </Router>
     </div>
   );
