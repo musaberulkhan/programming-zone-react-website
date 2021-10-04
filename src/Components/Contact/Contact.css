@@ -1,0 +1,31 @@
+.Contact .section-title{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.Contact .section-title::after{
+    margin-right: auto;
+    margin-left: auto;    
+    margin-top: 8px;     
+    content:"";    
+    display: block;    
+    width: 200px;        
+    border-top: 4px solid #006a9b;
+}
+
+.Contact .send-button{
+    background-color: #006a9b;
+    color: white;
+    margin-bottom: 30px;
+}
+.Contact .send-button:hover{
+    background-color: #0c3e55;
+    color: white;
+}
+
+.Contact .google-map{
+    margin: 15px;
+    width: 100%;
+    height: 450px;
+}
