@@ -30,5 +30,21 @@
     "duaration": "3 Months",
     "image":"https://addcode.io/wp-content/uploads/2020/02/csharp.jpg",
     "details":""
+    },
+    {"id":"10005",
+    "course":"PHP REST API",
+    "instructor": "James Rollins",
+    "price": "29.99",
+    "duaration": "3 Months",
+    "image":"https://addcode.io/wp-content/uploads/2020/02/csharp.jpg",
+    "details":""
+    },
+    {"id":"10006",
+    "course":"Python for Everyone",
+    "instructor": "James Rollins",
+    "price": "34.99",
+    "duaration": "3 Months",
+    "image":"https://addcode.io/wp-content/uploads/2020/02/csharp.jpg",
+    "details":""
     }
 ]
