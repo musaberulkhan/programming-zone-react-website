@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="row">
                 <h2 className="section-title mt-5">Contact Us</h2>
                 <div className="col-md-6 col-12">
-                    <h3 className="mt-3">Leave us a message</h3>
+                    <h3 className="my-3">Leave us a message</h3>
                     <div className="mb-3">
                         <label className="form-label">Full Name</label>
                         <input type="text" className="form-control" placeholder="Your Name" />
