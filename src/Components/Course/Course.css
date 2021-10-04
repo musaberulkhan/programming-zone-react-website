@@ -1,6 +1,6 @@
+/* ----------  Course  ------------ */
 .Course{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
 }
 .Course .thumbnail{
     height: 160px;
@@ -8,6 +8,8 @@
 .Course p{
     margin-bottom: 4px;
 } 
+
+/* ----------  Course Details Button    ------------ */
 .Course .card-footer{
     background-color: transparent;
     border: none

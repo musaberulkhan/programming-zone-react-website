@@ -1,3 +1,4 @@
+/* -----------    Contact     ---------- */
 .Contact .section-title{
     text-align: center;
     font-weight: 600;
@@ -14,6 +15,7 @@
     border-top: 4px solid #006a9b;
 }
 
+/* -----------    Send Message Form     ---------- */
 .Contact .send-button{
     background-color: #006a9b;
     color: white;
@@ -24,6 +26,8 @@
     color: white;
 }
 
+
+/* -----------    Google Map     ---------- */
 .Contact .google-map{
     margin: 15px;
     width: 100%;

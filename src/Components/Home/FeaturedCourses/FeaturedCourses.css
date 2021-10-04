@@ -1,3 +1,4 @@
+/* -------    Featured Courses    ---------- */
 .FeaturedCourses{
     margin-bottom: 50px;
 }
@@ -16,12 +17,14 @@
     border-top: 5px solid #006a9b;
 }
 
+/* -------    Display Featured Courses in Grid View   ---------- */
 .FeaturedCourses .display-featured-courses{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
 }
 
+/* -------    Show All Courses Button  ---------- */
 .FeaturedCourses .show-all-courses{
     background-color: transparent;
     border-color: #006a9b;

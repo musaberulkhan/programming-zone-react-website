@@ -1,13 +1,4 @@
-.Login{
-    
-}
-
-.Login .form-container{
-    width: 400px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 25px 30px;
-}
-
+/* -------- Login  --------- */
 .Login .section-title{
     text-align: center;
     font-weight: 600;
@@ -22,6 +13,13 @@
     display: block;    
     width: 100px;        
     border-top: 4px solid #006a9b;
+}
+
+/* ------- Login Form  ------- */
+.Login .form-container{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 25px 30px;
 }
 .Login .login-button{
     background-color: #006a9b;

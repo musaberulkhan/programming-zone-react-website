@@ -3,8 +3,12 @@ import './Login.css';
 
 const Login = () => {
     return (
+        // -----------   Login    -----------
         <div className="Login container d-flex flex-column align-items-center mt-5">
+            {/* -----------   Title    ----------- */}
             <h2 className="section-title">Login</h2>
+
+            {/* -----------   Login Form    ----------- */}
             <div className="form-container mb-5">                
                 <div className="mb-3">
                     <label className="form-label">Email address</label>

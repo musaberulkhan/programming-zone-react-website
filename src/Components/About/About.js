@@ -3,11 +3,17 @@ import './About.css';
 import AboutImage from '../../Images/about.jpg';
 const About = () => {
     return (
+        // ------------------    About    -------------------
         <div className="About container">
+             {/* ------------------    Title    ------------------- */}
             <h2 className="section-title">About Us</h2>
+
+            {/* ------------------    Image    ------------------- */}
             <div className="d-flex justify-content-center">
                 <img className="about-image" src={AboutImage} alt="" />
             </div>
+
+            {/* ------------------    Details    ------------------- */}
             <h4 className="mt-5">What is Programming Zone?</h4>
             <p>We create simplified and interactive learning experiences.
                 Learning programming should be easy to understand and available for everyone, everywhere!
