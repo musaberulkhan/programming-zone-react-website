@@ -7,13 +7,14 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Login from './Components/Login/Login';
 import Logo from './Images/logo.png';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    
-      <Router>        
-        <div className="App">
-          <nav className="navbar navbar-expand-lg navbar-light">
+    <div className="App">
+      <Router>
+        <div className="">
+          <nav className="navbar navbar-expand-lg">
             <div className="container">
               <img className="brand-logo" src={Logo} alt="" />
               <Link className="navbar-brand" to="/">Programming Zone</Link>
@@ -23,10 +24,10 @@ function App() {
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                   <Link className="nav-link" to="/"><i className="fas fa-home"></i> Home</Link>
-                  <Link className="nav-link" to="/courses">Courses</Link>
-                  <Link className="nav-link" to="/about">About</Link>
-                  <Link className="nav-link" to="/contact">Contact</Link>
-                  <Link className="nav-link" to="/login">Login</Link>
+                  <Link className="nav-link" to="/courses"><i class="fas fa-list"></i> Courses</Link>
+                  <Link className="nav-link" to="/about"><i class="fas fa-list"></i> About</Link>
+                  <Link className="nav-link" to="/contact"><i class="fas fa-envelope-open-text"></i> Contact</Link>
+                  <Link className="nav-link" to="/login"><i class="fas fa-user"></i> Login</Link>
                 </div>
               </div>
             </div>
@@ -52,7 +53,9 @@ function App() {
             </Route>
           </Switch>
         </div>
-      </Router>   
+      </Router>
+      <Footer></Footer>
+    </div>
   );
 }
 

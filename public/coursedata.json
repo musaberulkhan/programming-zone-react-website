@@ -1,7 +1,7 @@
 [
     {"id":"10001",
     "course":"C Programming",
-    "instructor": "Jerald Simon",
+    "instructor": "Simon Jerald",
     "price": "49.99",
     "duaration": "3 Months",
     "image":"https://geekboots.sfo2.cdn.digitaloceanspaces.com/post/why-c-is-so-popular-and-still-the-best-programming-language-1564571756694.jpg",
@@ -9,7 +9,7 @@
     },
     {"id":"10002",
     "course":"Object Oriented Java",
-    "instructor": "Frederick L. Creech",
+    "instructor": "Frederick Creech",
     "price": "69.99",
     "duaration": "4 Months",
     "image":"https://storage.ning.com/topology/rest/1.0/file/get/8667507462?profile=RESIZE_710x",
