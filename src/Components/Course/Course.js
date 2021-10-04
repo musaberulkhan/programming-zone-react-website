@@ -3,6 +3,7 @@ import './Course.css';
 
 const Course = (props) => {
     const { id, course, instructor, price, duaration, image } = props.course;
+    const { handleViewDetailsClick } = props;
 
     return (       
         <div className="Course card h-100">
@@ -14,7 +15,7 @@ const Course = (props) => {
                 <p>Duaration: <span className="fw-bold">{duaration}</span></p>
             </div>
             <div className="card-footer">
-                <button className="details-button py-2">View Course Details</button>
+                <button onClick={() => handleViewDetailsClick(id)} className="details-button py-2">View Course Details</button>
             </div>
         </div>
     );

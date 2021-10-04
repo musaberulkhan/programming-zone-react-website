@@ -8,6 +8,8 @@ import Contact from './Components/Contact/Contact';
 import Login from './Components/Login/Login';
 import Logo from './Images/logo.png';
 import Footer from './Components/Footer/Footer';
+import NotFound from './Components/NotFound/NotFound';
+import CourseDetails from './Components/CourseDetails/CourseDetails';
 
 function App() {
   return (
@@ -50,6 +52,12 @@ function App() {
             </Route>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/coursedetails/:courseId">
+              <CourseDetails></CourseDetails>
+            </Route>
+            <Route path="/*">
+              <NotFound></NotFound>
             </Route>
           </Switch>
         </div>
