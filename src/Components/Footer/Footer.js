@@ -13,8 +13,8 @@ const Footer = () => {
                     </div>
                     <div className="col-md-4 col-12 get-in-touch">
                         <h5 className="section-title">Get in Touch</h5>                        
-                        <p className="mb-0 mt-3"><i class="fas fa-phone-alt"></i>+91 254-310-0794</p>
-                        <p><i class="fas fa-envelope"></i>info@programming-zone.com</p>
+                        <p className="mb-0 mt-3"><i className="fas fa-phone-alt"></i>+91 254-310-0794</p>
+                        <p><i className="fas fa-envelope"></i>info@programming-zone.com</p>
                     </div>
                     <div className="col-md-4 col-12 search">
                         <h5 className="section-title">Serach</h5>                        

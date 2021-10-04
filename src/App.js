@@ -24,10 +24,10 @@ function App() {
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                   <Link className="nav-link" to="/"><i className="fas fa-home"></i> Home</Link>
-                  <Link className="nav-link" to="/courses"><i class="fas fa-list"></i> Courses</Link>
-                  <Link className="nav-link" to="/about"><i class="fas fa-list"></i> About</Link>
-                  <Link className="nav-link" to="/contact"><i class="fas fa-envelope-open-text"></i> Contact</Link>
-                  <Link className="nav-link" to="/login"><i class="fas fa-user"></i> Login</Link>
+                  <Link className="nav-link" to="/courses"><i className="fas fa-list"></i> Courses</Link>
+                  <Link className="nav-link" to="/about"><i className="fas fa-list"></i> About</Link>
+                  <Link className="nav-link" to="/contact"><i className="fas fa-envelope-open-text"></i> Contact</Link>
+                  <Link className="nav-link" to="/login"><i className="fas fa-user"></i> Login</Link>
                 </div>
               </div>
             </div>

@@ -21,3 +21,12 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
 }
+
+.FeaturedCourses .show-all-courses{
+    background-color: transparent;
+    border-color: #006a9b;
+}
+.FeaturedCourses .show-all-courses:hover{    
+    background-color: #006a9b;
+    color: white;
+}
