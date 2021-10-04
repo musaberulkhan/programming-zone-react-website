@@ -23,7 +23,7 @@ const CourseDetails = () => {
         <div className="CourseDetails container my-5">
             <h1 className="text-center mb-4">{course?.course}</h1>
             <div className="d-flex justify-content-center mb-5">
-                <img className="image" src={course?.image} alt="" />
+                <img className="image" src={course?.image} alt=""/>
             </div>
             <h6>Instructor: {course?.instructor}</h6>
             <h5>Course Fee: ${course?.price}</h5>

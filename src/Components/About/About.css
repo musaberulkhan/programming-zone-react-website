@@ -1,0 +1,28 @@
+.About{
+    margin-top: 60px;
+}
+.About .about-image{
+    width: 700px;
+}
+
+.About .section-title{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.About .section-title::after{
+    margin-right: auto;
+    margin-left: auto;    
+    margin-top: 8px;     
+    content:"";    
+    display: block;    
+    width: 200px;        
+    border-top: 4px solid #006a9b;
+}
+
+.About .display-courses{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
