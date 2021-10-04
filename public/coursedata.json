@@ -1,0 +1,34 @@
+[
+    {"id":"10001",
+    "course":"C Programming",
+    "instructor": "Jerald Simon",
+    "price": "49.99",
+    "duaration": "3 Months",
+    "image":"https://geekboots.sfo2.cdn.digitaloceanspaces.com/post/why-c-is-so-popular-and-still-the-best-programming-language-1564571756694.jpg",
+    "details":""
+    },
+    {"id":"10002",
+    "course":"Object Oriented Java",
+    "instructor": "Frederick L. Creech",
+    "price": "69.99",
+    "duaration": "4 Months",
+    "image":"https://storage.ning.com/topology/rest/1.0/file/get/8667507462?profile=RESIZE_710x",
+    "details":""
+    },
+    {"id":"10003",
+    "course":"JavaScript Web Programming",
+    "instructor": "Jenelle Parsons",
+    "price": "39.99",
+    "duaration": "2 Months",
+    "image":"https://geekboots.sfo2.cdn.digitaloceanspaces.com/post/javascript-1567486564472.jpg",
+    "details":""
+    },
+    {"id":"10004",
+    "course":"C# and .NET Framework",
+    "instructor": "James Rollins",
+    "price": "59.99",
+    "duaration": "3 Months",
+    "image":"https://addcode.io/wp-content/uploads/2020/02/csharp.jpg",
+    "details":""
+    }
+]

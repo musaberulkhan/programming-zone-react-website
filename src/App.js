@@ -10,9 +10,9 @@ import Logo from './Images/logo.png';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <div>
+    
+      <Router>        
+        <div className="App">
           <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
               <img className="brand-logo" src={Logo} alt="" />
@@ -20,7 +20,7 @@ function App() {
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+              <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                   <Link className="nav-link" to="/"><i className="fas fa-home"></i> Home</Link>
                   <Link className="nav-link" to="/courses">Courses</Link>
@@ -52,8 +52,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-      </Router>
-    </div>
+      </Router>   
   );
 }
 

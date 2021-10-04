@@ -1,0 +1,25 @@
+.Course{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Course .thumbnail{
+    height: 160px;
+}
+.Course p{
+    margin-bottom: 4px;
+} 
+.Course .card-footer{
+    background-color: transparent;
+    border: none
+}
+.Course .details-button{
+    border: none;
+    background-color:#155580;
+    width: 100%;
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.Course .details-button:hover{    
+    background-color:#0b3a58;      
+}

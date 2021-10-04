@@ -1,3 +1,6 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .navbar{
     background-color: rgb(243, 243, 243);
 }
@@ -12,4 +15,9 @@
 }
 .navbar .navbar-nav a{
     font-weight: 600;
+}
+
+.navbar-collapse{   
+    display: flex;
+    justify-content: end;
 }

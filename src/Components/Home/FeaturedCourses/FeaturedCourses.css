@@ -1,0 +1,23 @@
+.FeaturedCourses{
+    margin-bottom: 50px;
+}
+.FeaturedCourses .section-title{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;  
+}
+.FeaturedCourses .section-title::after{
+    margin-right: auto;
+    margin-left: auto;    
+    margin-top: 8px;     
+    content:"";    
+    display: block;    
+    width: 150px;        
+    border-top: 5px solid #006a9b;
+}
+
+.FeaturedCourses .display-featured-courses{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
